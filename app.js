@@ -149,6 +149,24 @@ function setMemeImage(img, term) {
   img.src = memeUrl(term, templateQueue[0]);
 }
 
+function itemSource(item, lesson) {
+  return {
+    date: item.date || lesson.date,
+    title: item.sourceTitle || lesson.sourceTitle,
+    url: item.sourceUrl || lesson.sourceUrl
+  };
+}
+
+function sourceLink(label, source) {
+  return `<a href="${source.url}" target="_blank" rel="noopener" title="${source.title}">${label}</a>`;
+}
+
+function displayExample(item, language) {
+  const value = language === "en" ? item.exampleEn : item.exampleCn;
+  if (!item.exampleAdapted) return value;
+  return language === "en" ? `LEARNING EXAMPLE: ${value}` : `学习化例句：${value}`;
+}
+
 function preferredEnglishVoice() {
   const voices = window.speechSynthesis?.getVoices?.() || [];
   const englishVoices = voices.filter((voice) => /^en[-_]/i.test(voice.lang));
@@ -178,16 +196,21 @@ function speakText(text) {
 }
 
 function renderLesson(lesson) {
+  const wordSource = itemSource(lesson.word, lesson);
+  const phraseSource = itemSource(lesson.phrase, lesson);
+  const sameSource = wordSource.url === phraseSource.url;
+
   els.sourcePill.innerHTML = `
-    <span>${lesson.date}</span>
-    <a href="${lesson.sourceUrl}" target="_blank" rel="noopener">查看 Fortune 来源</a>
+    <span>${wordSource.date}${sameSource ? "" : ` / ${phraseSource.date}`}</span>
+    ${sourceLink(sameSource ? "查看 Fortune 来源" : "热词来源", wordSource)}
+    ${sameSource ? "" : sourceLink("短语来源", phraseSource)}
   `;
 
   els.wordTerm.textContent = lesson.word.term;
   els.wordCn.textContent = lesson.word.cn;
   els.wordEn.textContent = lesson.word.en;
-  els.wordExampleEn.textContent = lesson.word.exampleEn;
-  els.wordExampleCn.textContent = lesson.word.exampleCn;
+  els.wordExampleEn.textContent = displayExample(lesson.word, "en");
+  els.wordExampleCn.textContent = displayExample(lesson.word, "cn");
   els.wordSpeakButton.onclick = () => speakText(lesson.word.term);
   els.wordExampleSpeakButton.onclick = () => speakText(lesson.word.exampleEn.replace(/^EXAMPLE:\s*/i, ""));
   setMemeImage(els.wordMeme, lesson.word.term);
@@ -195,8 +218,8 @@ function renderLesson(lesson) {
   els.phraseTerm.textContent = lesson.phrase.term;
   els.phraseCn.textContent = lesson.phrase.cn;
   els.phraseEn.textContent = lesson.phrase.en;
-  els.phraseExampleEn.textContent = lesson.phrase.exampleEn;
-  els.phraseExampleCn.textContent = lesson.phrase.exampleCn;
+  els.phraseExampleEn.textContent = displayExample(lesson.phrase, "en");
+  els.phraseExampleCn.textContent = displayExample(lesson.phrase, "cn");
   els.phraseSpeakButton.onclick = () => speakText(lesson.phrase.term);
   els.phraseExampleSpeakButton.onclick = () => speakText(lesson.phrase.exampleEn.replace(/^EXAMPLE:\s*/i, ""));
   setMemeImage(els.phraseMeme, lesson.phrase.term);
@@ -211,18 +234,26 @@ function renderKnowledge() {
     return;
   }
 
-  els.knowledgeList.innerHTML = knowledge.lessons.map((item) => `
-    <article class="kb-item">
-      <div class="kb-meta">
-        <span>${item.date}</span>
-        <a href="${item.sourceUrl}" target="_blank" rel="noopener">来源</a>
-      </div>
-      <h3>${item.word.term}</h3>
-      <p>${item.word.cn}</p>
-      <h3>${item.phrase.term}</h3>
-      <p>${item.phrase.cn}</p>
-    </article>
-  `).join("");
+  els.knowledgeList.innerHTML = knowledge.lessons.map((item) => {
+    const wordSource = itemSource(item.word, item);
+    const phraseSource = itemSource(item.phrase, item);
+    return `
+      <article class="kb-item">
+        <div class="kb-meta">
+          <span>${wordSource.date}</span>
+          <a href="${wordSource.url}" target="_blank" rel="noopener" title="${wordSource.title}">热词来源</a>
+        </div>
+        <h3>${item.word.term}</h3>
+        <p>${item.word.cn}</p>
+        <div class="kb-meta">
+          <span>${phraseSource.date}</span>
+          <a href="${phraseSource.url}" target="_blank" rel="noopener" title="${phraseSource.title}">短语来源</a>
+        </div>
+        <h3>${item.phrase.term}</h3>
+        <p>${item.phrase.cn}</p>
+      </article>
+    `;
+  }).join("");
 }
 
 function openDrawer() {
