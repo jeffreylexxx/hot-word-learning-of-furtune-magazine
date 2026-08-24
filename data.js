@@ -12,8 +12,8 @@ const FORTUNE_LESSONS = [
       "date": "2026-08-03",
       "sourceTitle": "自动抓取：AI对存储芯片的旺盛需求，正在推动3万亿美元的新板块“Memi”",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2026-08/03/content_475701.htm",
-      "exampleEn": "The report uses \"memi\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“memi”表达“Memi板块；由存储器和半导体组合而成的非正式市场分类”这一概念。",
+      "exampleEn": "Analysts grouped memory-chip leaders into the new memi theme as AI demand accelerated.",
+      "exampleCn": "随着人工智能需求加速，分析师把存储芯片龙头归入新的Memi投资主题。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -23,8 +23,8 @@ const FORTUNE_LESSONS = [
       "date": "2026-07-06",
       "sourceTitle": "自动抓取：“普通百万富翁”的黄金时代已然落幕",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2026-07/06/content_474979.htm",
-      "exampleEn": "The report uses \"emilli\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“emilli”表达“普通百万富翁；通过退休储蓄、住房或长期指数投资积累百万财富的人”这一概念。",
+      "exampleEn": "The retired teacher became an emilli through steady pension contributions and decades of home ownership.",
+      "exampleCn": "这位退休教师通过稳定缴纳养老金并长期持有住房，成为了一名普通百万富翁。",
       "exampleAdapted": true
     }
   },
@@ -39,8 +39,8 @@ const FORTUNE_LESSONS = [
       "date": "2026-05-22",
       "sourceTitle": "自动抓取：OpenAI创始成员宣布转投Anthropic",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2026-05/21/content_474016.htm",
-      "exampleEn": "The report uses \"vibe coding\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“vibe coding”表达“氛围编程；通过自然语言提示和反馈让人工智能生成、调整代码”这一概念。",
+      "exampleEn": "The product team used vibe coding to turn a plain-language idea into a working prototype in one afternoon.",
+      "exampleCn": "产品团队利用氛围编程，在一个下午把自然语言描述的想法变成了可运行的原型。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -50,8 +50,8 @@ const FORTUNE_LESSONS = [
       "date": "2026-04-01",
       "sourceTitle": "自动抓取：就业市场形势严峻，“反向求职顾问”帮客户找工作",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2026-03/31/content_473080.htm",
-      "exampleEn": "The report uses \"reverse recruiter\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“reverse recruiter”表达“反向招聘顾问；代表求职者而不是雇主提供求职服务的顾问”这一概念。",
+      "exampleEn": "A reverse recruiter rewrote her résumé and contacted employers on her behalf.",
+      "exampleCn": "一位反向招聘顾问重写了她的简历，并代表她联系雇主。",
       "exampleAdapted": true
     }
   },
@@ -66,8 +66,8 @@ const FORTUNE_LESSONS = [
       "date": "2026-03-15",
       "sourceTitle": "自动抓取：新研究发现：“AI脑疲劳”现象让员工更疲惫而非更高效",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2026-03/15/content_472588.htm",
-      "exampleEn": "The report uses \"vibe coding paralysis\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“vibe coding paralysis”表达“氛围编程瘫痪；人工智能提供过多可能性而导致难以决策和完成任务”这一概念。",
+      "exampleEn": "Too many generated alternatives caused vibe coding paralysis, so the developer returned to a simple specification.",
+      "exampleCn": "过多的生成方案造成了氛围编程瘫痪，因此开发者重新采用简单的需求说明。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -77,8 +77,8 @@ const FORTUNE_LESSONS = [
       "date": "2026-01-10",
       "sourceTitle": "自动抓取：AI视频泛滥，让这个单词成为年度词汇",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2026-01/09/content_471450.htm",
-      "exampleEn": "The report uses \"slop\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“slop”表达“网络垃圾；通常由人工智能批量生成的低质量数字内容”这一概念。",
+      "exampleEn": "The publisher introduced human review to keep AI-generated slop off its news site.",
+      "exampleCn": "这家出版商引入人工审核，防止人工智能生成的低质内容出现在新闻网站上。",
       "exampleAdapted": true
     }
   },
@@ -93,8 +93,8 @@ const FORTUNE_LESSONS = [
       "date": "2026-01-07",
       "sourceTitle": "自动抓取：一项大学生调查显示，这个风靡一时的网络热词已过时",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2026-01/06/content_471381.htm",
-      "exampleEn": "The report uses \"incentivize\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“incentivize”表达“激励；通过奖励或利益促使某人采取行动”这一概念。",
+      "exampleEn": "The bonus is designed to incentivize sales teams to retain existing customers.",
+      "exampleCn": "这项奖金旨在激励销售团队留住现有客户。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -104,8 +104,8 @@ const FORTUNE_LESSONS = [
       "date": "2026-01-01",
       "sourceTitle": "自动抓取：中美AI竞赛：界限日益模糊，下一战关键何在？",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2025-12/31/content_471284.htm",
-      "exampleEn": "The report uses \"rage bait\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“rage bait”表达“愤怒诱饵；刻意激怒受众来换取点击和互动的内容”这一概念。",
+      "exampleEn": "The brand refused to use rage bait even though provocative posts generated more comments.",
+      "exampleCn": "尽管挑衅性内容能带来更多评论，这个品牌仍拒绝使用愤怒诱饵。",
       "exampleAdapted": true
     }
   },
@@ -120,8 +120,8 @@ const FORTUNE_LESSONS = [
       "date": "2026-01-07",
       "sourceTitle": "自动抓取：一项大学生调查显示，这个风靡一时的网络热词已过时",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2026-01/06/content_471381.htm",
-      "exampleEn": "The report uses \"demure\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“demure”表达“端庄的；举止安静、克制而不过分张扬的”这一概念。",
+      "exampleEn": "She chose a demure navy suit for the formal meeting with regulators.",
+      "exampleCn": "她为与监管机构的正式会议选择了一套端庄的海军蓝西装。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -131,8 +131,8 @@ const FORTUNE_LESSONS = [
       "date": "2025-09-30",
       "sourceTitle": "自动抓取：《韦氏大学词典》新增5000词汇",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2025-09/29/content_469201.htm",
-      "exampleEn": "The report uses \"petrichor\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“petrichor”表达“雨后泥土的清香”这一概念。",
+      "exampleEn": "The fragrance brand released a candle designed to capture the petrichor after a summer storm.",
+      "exampleCn": "这个香氛品牌推出了一款试图还原夏日暴雨后泥土清香的蜡烛。",
       "exampleAdapted": true
     }
   },
@@ -147,8 +147,8 @@ const FORTUNE_LESSONS = [
       "date": "2025-09-30",
       "sourceTitle": "自动抓取：《韦氏大学词典》新增5000词汇",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2025-09/29/content_469201.htm",
-      "exampleEn": "The report uses \"teraflop\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“teraflop”表达“太拉次浮点运算；衡量计算机运算速度的单位”这一概念。",
+      "exampleEn": "The new graphics processor can perform several teraflops of calculations per second.",
+      "exampleCn": "这款新图形处理器每秒可以完成数万亿次浮点运算。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -158,8 +158,8 @@ const FORTUNE_LESSONS = [
       "date": "2025-08-22",
       "sourceTitle": "自动抓取：“安静崩溃”现象正在职场蔓延",
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2025-08/21/content_468047.htm",
-      "exampleEn": "The report uses \"quiet cracking\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“quiet cracking”表达“安静崩溃；员工继续工作但心理健康和投入度逐渐恶化”这一概念。",
+      "exampleEn": "Her missed deadlines and growing isolation were early signs of quiet cracking.",
+      "exampleCn": "她开始错过截止日期并日益孤立，这是安静崩溃的早期迹象。",
       "exampleAdapted": true
     }
   },
@@ -174,8 +174,8 @@ const FORTUNE_LESSONS = [
       "date": "2025-04-04",
       "sourceTitle": "自动抓取：夜里胡思乱想睡不着？试试“认知洗牌睡眠法”",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2025-04/03/content_464163.htm",
-      "exampleEn": "The report uses \"cognitive shuffling\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“cognitive shuffling”表达“认知洗牌；通过联想无关词语或图像打断有序思考的助眠方法”这一概念。",
+      "exampleEn": "When work problems kept her awake, she tried cognitive shuffling by imagining unrelated objects.",
+      "exampleCn": "工作问题让她难以入睡时，她通过想象互不相关的物体来尝试认知洗牌。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -185,8 +185,8 @@ const FORTUNE_LESSONS = [
       "date": "2025-01-07",
       "sourceTitle": "自动抓取：25%的美国人每月花钱无规划",
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2025-01/06/content_461371.htm",
-      "exampleEn": "The report uses \"zero-based budgeting\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“zero-based budgeting”表达“零基预算；把每一笔收入分配给支出、储蓄或还债的预算方法”这一概念。",
+      "exampleEn": "With zero-based budgeting, the family assigned every dollar of monthly income to a specific purpose.",
+      "exampleCn": "通过零基预算，这个家庭为每一美元月收入都安排了明确用途。",
       "exampleAdapted": true
     }
   },
@@ -201,8 +201,8 @@ const FORTUNE_LESSONS = [
       "date": "2025-04-04",
       "sourceTitle": "自动抓取：夜里胡思乱想睡不着？试试“认知洗牌睡眠法”",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2025-04/03/content_464163.htm",
-      "exampleEn": "The report uses \"sleepmaxxers\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“sleepmaxxers”表达“睡眠最大化爱好者；尝试多种习惯、产品或技巧来提高睡眠质量的人”这一概念。",
+      "exampleEn": "Sleepmaxxers compare blackout curtains, cooling mattresses, and wearable sleep trackers.",
+      "exampleCn": "睡眠最大化爱好者会比较遮光窗帘、降温床垫和可穿戴睡眠追踪器。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -212,8 +212,8 @@ const FORTUNE_LESSONS = [
       "date": "2025-01-07",
       "sourceTitle": "自动抓取：25%的美国人每月花钱无规划",
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2025-01/06/content_461371.htm",
-      "exampleEn": "The report uses \"envelope budget\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“envelope budget”表达“信封预算法；把现金按用途分装到不同信封中控制支出”这一概念。",
+      "exampleEn": "An envelope budget helped him stop overspending on restaurants and entertainment.",
+      "exampleCn": "信封预算法帮助他控制了在餐饮和娱乐方面的超支。",
       "exampleAdapted": true
     }
   },
@@ -228,8 +228,8 @@ const FORTUNE_LESSONS = [
       "date": "2024-10-18",
       "sourceTitle": "自动抓取：打造个人品牌，提升职业前景的五个诀窍",
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2024-10/17/content_459143.htm",
-      "exampleEn": "The report uses \"pie\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“pie”表达“PIE职业模型；由专业表现、个人形象和曝光度组成的职业发展框架”这一概念。",
+      "exampleEn": "Her mentor used the PIE model to show that strong performance alone would not guarantee promotion.",
+      "exampleCn": "她的导师用PIE模型说明，只有出色表现并不能保证获得晋升。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -239,8 +239,8 @@ const FORTUNE_LESSONS = [
       "date": "2024-07-15",
       "sourceTitle": "自动抓取：“大逃离”时代来临：上班族敬业度低迷",
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2024-07/14/content_456168.htm",
-      "exampleEn": "The report uses \"great detachment\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“great detachment”表达“大逃离；员工普遍疏离工作却因市场限制而难以离职的时期”这一概念。",
+      "exampleEn": "During the great detachment, many employees stayed in their jobs but felt little connection to them.",
+      "exampleCn": "在“大逃离”时期，许多员工虽然留在岗位上，却几乎感受不到工作认同。",
       "exampleAdapted": true
     }
   },
@@ -255,8 +255,8 @@ const FORTUNE_LESSONS = [
       "date": "2024-05-05",
       "sourceTitle": "自动抓取：通勤“新三角”给商业地产敲响丧钟",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2024-05/04/content_452643.htm",
-      "exampleEn": "The report uses \"commuter triangle\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“commuter triangle”表达“通勤新三角；混合办公中员工、家庭与工作场所的新关系”这一概念。",
+      "exampleEn": "Hybrid schedules have created a commuter triangle linking home, headquarters, and a local coworking space.",
+      "exampleCn": "混合办公日程形成了连接家庭、总部和本地共享办公空间的通勤新三角。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -266,8 +266,8 @@ const FORTUNE_LESSONS = [
       "date": "2024-01-13",
       "sourceTitle": "自动抓取：Netflix创意枯竭，却仍然能够“赢得流媒体大战”",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2024-01/12/content_446300.htm",
-      "exampleEn": "The report uses \"enshittification\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“enshittification”表达“平台垃圾化；平台逐步牺牲用户和商业客户利益来攫取自身价值”这一概念。",
+      "exampleEn": "Users blamed enshittification when the platform added more ads and removed useful free features.",
+      "exampleCn": "平台增加广告并取消实用的免费功能后，用户将其归咎于平台垃圾化。",
       "exampleAdapted": true
     }
   },
@@ -282,8 +282,8 @@ const FORTUNE_LESSONS = [
       "date": "2024-05-05",
       "sourceTitle": "自动抓取：通勤“新三角”给商业地产敲响丧钟",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2024-05/04/content_452643.htm",
-      "exampleEn": "The report uses \"urban doom loop\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“urban doom loop”表达“城市末日循环；城市中心活力和收入互相拖累的恶性循环”这一概念。",
+      "exampleEn": "Empty offices reduced downtown spending and pushed the city deeper into an urban doom loop.",
+      "exampleCn": "写字楼空置减少了市中心消费，使这座城市进一步陷入城市末日循环。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -293,8 +293,8 @@ const FORTUNE_LESSONS = [
       "date": "2024-01-13",
       "sourceTitle": "自动抓取：Netflix创意枯竭，却仍然能够“赢得流媒体大战”",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2024-01/12/content_446300.htm",
-      "exampleEn": "The report uses \"platform decay\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“platform decay”表达“平台衰落；网络平台对用户的质量和价值逐步下降”这一概念。",
+      "exampleEn": "Poor moderation and unreliable search results accelerated the platform's decay.",
+      "exampleCn": "糟糕的内容管理和不可靠的搜索结果加速了平台衰落。",
       "exampleAdapted": true
     }
   },
@@ -309,8 +309,8 @@ const FORTUNE_LESSONS = [
       "date": "2023-12-01",
       "sourceTitle": "自动抓取：蜗牛女孩与懒丫头工作",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2023-11/30/content_443858.htm",
-      "exampleEn": "The report uses \"lazy girl job\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“lazy girl job”表达“懒女孩工作；强调高薪、灵活和工作生活平衡的低压力岗位”这一概念。",
+      "exampleEn": "For her, a lazy girl job means predictable hours and enough energy for life outside work.",
+      "exampleCn": "对她而言，“懒女孩工作”意味着工时稳定，并能为工作之外的生活保留精力。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -320,8 +320,8 @@ const FORTUNE_LESSONS = [
       "date": "2023-09-21",
       "sourceTitle": "自动抓取：家乐福在货架添加标签，让顾客感受通胀",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2023-09/20/content_439960.htm",
-      "exampleEn": "The report uses \"shrinkflation\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“shrinkflation”表达“缩水式通胀；商品减量但价格不降甚至上涨”这一概念。",
+      "exampleEn": "Customers noticed shrinkflation when the cereal box became smaller but the price stayed the same.",
+      "exampleCn": "麦片盒变小但价格不变时，顾客注意到了缩水式通胀。",
       "exampleAdapted": true
     }
   },
@@ -336,8 +336,8 @@ const FORTUNE_LESSONS = [
       "date": "2023-12-01",
       "sourceTitle": "自动抓取：蜗牛女孩与懒丫头工作",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2023-11/30/content_443858.htm",
-      "exampleEn": "The report uses \"snail girl\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“snail girl”表达“蜗牛女孩；反对过度奋斗、选择放慢工作和生活节奏的理念”这一概念。",
+      "exampleEn": "The snail girl trend inspired her to grow a small business without chasing constant expansion.",
+      "exampleCn": "“蜗牛女孩”潮流让她决定稳步经营小企业，而不是一味追求扩张。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -347,8 +347,8 @@ const FORTUNE_LESSONS = [
       "date": "2023-02-10",
       "sourceTitle": "自动抓取：比“躺平”更严重的“厌工症”，说的是你吗？",
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2023-02/09/content_427693.htm",
-      "exampleEn": "The report uses \"resenteeism\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“resenteeism”表达“厌工症；留在不喜欢的岗位并公开表现怨气和不满”这一概念。",
+      "exampleEn": "Rising resenteeism became obvious when frustrated employees criticized every new initiative.",
+      "exampleCn": "当不满的员工批评每一项新举措时，日益严重的厌工症变得十分明显。",
       "exampleAdapted": true
     }
   },
@@ -363,8 +363,8 @@ const FORTUNE_LESSONS = [
       "date": "2023-01-23",
       "sourceTitle": "自动抓取：“躺平”之后，“捣乱式办公”或成新风潮",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2023-01/22/content_426488.htm",
-      "exampleEn": "The report uses \"rage applying\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“rage applying”表达“愤怒海投；因不满现职而短时间大量投递求职申请”这一概念。",
+      "exampleEn": "She started rage applying after her manager rejected her promotion without an explanation.",
+      "exampleCn": "经理没有解释便拒绝了她的晋升后，她开始愤怒海投。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -374,8 +374,8 @@ const FORTUNE_LESSONS = [
       "date": "2023-01-21",
       "sourceTitle": "自动抓取：首席执行官们为何对2023年忧心忡忡",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2023-01/20/content_426401.htm",
-      "exampleEn": "The report uses \"permacrisis\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“permacrisis”表达“长期危机；多个危机相互叠加并持续存在的时期”这一概念。",
+      "exampleEn": "Leaders operating through a permacrisis must make decisions before every uncertainty is resolved.",
+      "exampleCn": "身处长期危机的领导者，必须在所有不确定性消失之前就作出决策。",
       "exampleAdapted": true
     }
   },
@@ -390,8 +390,8 @@ const FORTUNE_LESSONS = [
       "date": "2023-01-23",
       "sourceTitle": "自动抓取：“躺平”之后，“捣乱式办公”或成新风潮",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2023-01/22/content_426488.htm",
-      "exampleEn": "The report uses \"quiet quitting\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“quiet quitting”表达“安静辞职；只完成岗位要求、不再额外投入的工作态度”这一概念。",
+      "exampleEn": "After months of unpaid overtime, Marcus began quiet quitting and stopped taking on extra duties.",
+      "exampleCn": "连续数月无偿加班后，马库斯开始安静辞职，不再承担额外职责。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -401,8 +401,8 @@ const FORTUNE_LESSONS = [
       "date": "2022-12-05",
       "sourceTitle": "自动抓取：“职业缓冲”，成为新的职场术语",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2022-12/04/content_423933.htm",
-      "exampleEn": "The report uses \"career cushioning\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“career cushioning”表达“职业缓冲；在职期间提前准备其他工作选项”这一概念。",
+      "exampleEn": "Updating his portfolio and reconnecting with former colleagues were part of his career cushioning plan.",
+      "exampleCn": "更新作品集并重新联系前同事，是他职业缓冲计划的一部分。",
       "exampleAdapted": true
     }
   },
@@ -417,8 +417,8 @@ const FORTUNE_LESSONS = [
       "date": "2022-09-30",
       "sourceTitle": "自动抓取：“大辞职潮”时代还远未结束",
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2022-09/29/content_420084.htm",
-      "exampleEn": "The report uses \"great resignation\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“great resignation”表达“大辞职潮；大量员工主动离职的时期”这一概念。",
+      "exampleEn": "Flexible schedules helped the company retain staff during the great resignation.",
+      "exampleCn": "灵活的工作日程帮助公司在大辞职潮期间留住了员工。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -428,8 +428,8 @@ const FORTUNE_LESSONS = [
       "date": "2022-08-26",
       "sourceTitle": "自动抓取：混合办公模式并非最佳选择，员工心存焦虑",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2022-08/25/content_417936.htm",
-      "exampleEn": "The report uses \"proximity bias\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“proximity bias”表达“距离偏见；管理者更偏爱常在办公室出现的员工”这一概念。",
+      "exampleEn": "Managers received training to prevent proximity bias from hurting remote employees' promotions.",
+      "exampleCn": "管理者接受了培训，以免距离偏见影响远程员工的晋升。",
       "exampleAdapted": true
     }
   },
@@ -444,8 +444,8 @@ const FORTUNE_LESSONS = [
       "date": "2022-09-30",
       "sourceTitle": "自动抓取：“大辞职潮”时代还远未结束",
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2022-09/29/content_420084.htm",
-      "exampleEn": "The report uses \"job hopping\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“job hopping”表达“频繁跳槽；为了薪资、职责或工作条件而较频繁地更换工作”这一概念。",
+      "exampleEn": "Frequent job hopping helped her raise her salary, but recruiters asked about her short tenures.",
+      "exampleCn": "频繁跳槽帮助她提高了薪资，但招聘人员也询问了她任职时间较短的原因。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -455,8 +455,8 @@ const FORTUNE_LESSONS = [
       "date": "2022-08-17",
       "sourceTitle": "自动抓取：美国流行躺平，年轻人放弃奋斗文化",
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2022-08/16/content_417384.htm",
-      "exampleEn": "The report uses \"hustle culture\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“hustle culture”表达“奋斗文化；把持续工作和极端高产视为成功标志的文化”这一概念。",
+      "exampleEn": "The founder rejected hustle culture and encouraged everyone to take their full vacation allowance.",
+      "exampleCn": "这位创始人反对奋斗文化，并鼓励所有人休完应有的年假。",
       "exampleAdapted": true
     }
   },
@@ -471,8 +471,8 @@ const FORTUNE_LESSONS = [
       "date": "2022-07-14",
       "sourceTitle": "自动抓取：估值90亿美元的《宝可梦GO》开发商Niantic如何玩转元宇宙？",
       "sourceUrl": "https://www.fortunechina.com/zhuanlan/c/2022-07/14/content_415237.htm",
-      "exampleEn": "The report uses \"metaverse\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“metaverse”表达“元宇宙；由持久化虚拟空间组成、可供人们以数字身份互动的网络”这一概念。",
+      "exampleEn": "The fashion label opened a showroom in the metaverse for customers using digital avatars.",
+      "exampleCn": "这个时装品牌在元宇宙中开设了展厅，供使用数字化身的顾客参观。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -482,8 +482,8 @@ const FORTUNE_LESSONS = [
       "date": "2022-03-24",
       "sourceTitle": "自动抓取：科技巨头竞相招聘Web3人才，Spotify也加入了",
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2022-03/23/content_408809.htm",
-      "exampleEn": "The report uses \"web3\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“web3”表达“第三代互联网；强调去中心化网络、数字所有权和区块链的网络愿景”这一概念。",
+      "exampleEn": "The startup is building a Web3 marketplace where creators control their digital assets.",
+      "exampleCn": "这家初创公司正在建立一个由创作者掌控数字资产的第三代互联网市场。",
       "exampleAdapted": true
     }
   },
@@ -498,8 +498,8 @@ const FORTUNE_LESSONS = [
       "date": "2021-12-23",
       "sourceTitle": "自动抓取：2021年投资加密货币的人，真赚了吗？",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2021-12/22/content_403485.htm",
-      "exampleEn": "The report uses \"play-to-earn\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“play-to-earn”表达“边玩边赚；通过游戏获得数字资产或加密货币的模式”这一概念。",
+      "exampleEn": "The studio abandoned its play-to-earn model after players complained about unstable rewards.",
+      "exampleCn": "玩家抱怨奖励不稳定后，这家工作室放弃了边玩边赚模式。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -509,8 +509,8 @@ const FORTUNE_LESSONS = [
       "date": "2021-12-05",
       "sourceTitle": "自动抓取：《柯林斯词典》公布2021年度热词：NFT排行第一",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2021-12/04/content_402122.htm",
-      "exampleEn": "The report uses \"nft\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“nft”表达“非同质化代币；记录在区块链上的独特数字所有权凭证”这一概念。",
+      "exampleEn": "The artist sold an NFT that verified ownership of the original digital artwork.",
+      "exampleCn": "这位艺术家出售了一枚用于验证原创数字艺术品所有权的非同质化代币。",
       "exampleAdapted": true
     }
   },
@@ -525,8 +525,8 @@ const FORTUNE_LESSONS = [
       "date": "2021-12-23",
       "sourceTitle": "自动抓取：2021年投资加密货币的人，真赚了吗？",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2021-12/22/content_403485.htm",
-      "exampleEn": "The report uses \"crypto derivatives\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“crypto derivatives”表达“加密衍生品；价值与加密货币或加密资产挂钩的金融合约”这一概念。",
+      "exampleEn": "The exchange tightened risk controls for customers trading crypto derivatives.",
+      "exampleCn": "这家交易所加强了对加密衍生品交易客户的风险控制。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -536,8 +536,8 @@ const FORTUNE_LESSONS = [
       "date": "2021-12-05",
       "sourceTitle": "自动抓取：《柯林斯词典》公布2021年度热词：NFT排行第一",
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2021-12/04/content_402122.htm",
-      "exampleEn": "The report uses \"hybrid working\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“hybrid working”表达“混合办公；远程工作与到岗办公相结合的安排”这一概念。",
+      "exampleEn": "Our hybrid working policy requires teams to meet in the office twice a week.",
+      "exampleCn": "我们的混合办公制度要求团队每周到办公室见面两次。",
       "exampleAdapted": true
     }
   },
@@ -552,8 +552,8 @@ const FORTUNE_LESSONS = [
       "date": "2021-11-27",
       "sourceTitle": "自动抓取：我们不能稀里糊涂地进驻元宇宙",
       "sourceUrl": "https://www.fortunechina.com/keji/c/2021-11/26/content_401527.htm",
-      "exampleEn": "The report uses \"paradigm shift\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“paradigm shift”表达“范式转变；某个领域底层观念或方法发生的根本变化”这一概念。",
+      "exampleEn": "Remote work created a paradigm shift in how managers measure productivity.",
+      "exampleCn": "远程办公让管理者衡量生产力的方式发生了范式转变。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -563,8 +563,8 @@ const FORTUNE_LESSONS = [
       "date": "2021-11-02",
       "sourceTitle": "自动抓取：扎克伯格痴迷于元宇宙，可元宇宙究竟是什么？",
       "sourceUrl": "https://www.fortunechina.com/keji/c/2021-11/01/content_399756.htm",
-      "exampleEn": "The report uses \"avatar\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“avatar”表达“化身；用户在网络或虚拟环境中的数字形象”这一概念。",
+      "exampleEn": "Her avatar welcomed visitors to the company's virtual product launch.",
+      "exampleCn": "她的数字化身在公司的虚拟产品发布会上迎接访客。",
       "exampleAdapted": true
     }
   },
@@ -579,8 +579,8 @@ const FORTUNE_LESSONS = [
       "date": "2021-11-27",
       "sourceTitle": "自动抓取：我们不能稀里糊涂地进驻元宇宙",
       "sourceUrl": "https://www.fortunechina.com/keji/c/2021-11/26/content_401527.htm",
-      "exampleEn": "The report uses \"haptic gloves\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“haptic gloves”表达“触觉手套；在虚拟环境中模拟触摸反馈的可穿戴设备”这一概念。",
+      "exampleEn": "Engineers tested haptic gloves that allow surgeons to feel virtual instruments.",
+      "exampleCn": "工程师测试了能让外科医生感受到虚拟器械的触觉手套。",
       "exampleAdapted": true
     },
     "phrase": {
@@ -590,8 +590,8 @@ const FORTUNE_LESSONS = [
       "date": "2021-10-30",
       "sourceTitle": "自动抓取：扎克伯格重命名Facebook，寄托对元宇宙的愿景",
       "sourceUrl": "https://www.fortunechina.com/keji/c/2021-10/29/content_399651.htm",
-      "exampleEn": "The report uses \"virtual reality\" when discussing a recent business or technology trend.",
-      "exampleCn": "这篇报道用“virtual reality”表达“虚拟现实；让用户进入并交互于计算机生成环境的技术”这一概念。",
+      "exampleEn": "New employees completed safety training in virtual reality before entering the factory.",
+      "exampleCn": "新员工进入工厂前，先在虚拟现实环境中完成了安全培训。",
       "exampleAdapted": true
     }
   }
