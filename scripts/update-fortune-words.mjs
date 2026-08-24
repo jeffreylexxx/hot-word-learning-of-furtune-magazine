@@ -60,7 +60,7 @@ const DEFINITION_OVERRIDES = {
   "hedge your bets": "To reduce risk by keeping more than one option available.",
   "rage applying": "Applying rapidly to many jobs in reaction to frustration with a current employer.",
   resenteeism: "Staying in a disliked job while openly expressing resentment and dissatisfaction.",
-  "bare minimum Monday": "Starting the workweek gently by doing only essential tasks on Monday.",
+  "bare minimum monday": "Starting the workweek gently by doing only essential tasks on Monday.",
   "lazy girl job": "A well-paid, flexible job designed to protect work-life balance and minimize excessive stress.",
   "snail girl": "A lifestyle idea that favors a slower pace of work and life over constant hustle.",
   enshittification: "The gradual degradation of an online platform as it shifts value away from users and business customers to itself.",
@@ -159,6 +159,245 @@ const CHINESE_GLOSSES = {
   emilli: "普通百万富翁；通过退休储蓄、住房或长期指数投资积累百万财富的人",
   memi: "Memi板块；由存储器和半导体组合而成的非正式市场分类",
   "reverse recruiter": "反向招聘顾问；代表求职者而不是雇主提供求职服务的顾问"
+};
+
+const EXAMPLE_OVERRIDES = {
+  "augmented reality": {
+    en: "The retailer used augmented reality to let customers preview furniture in their homes.",
+    cn: "这家零售商利用增强现实，让顾客预览家具摆在家中的效果。"
+  },
+  "virtual reality": {
+    en: "New employees completed safety training in virtual reality before entering the factory.",
+    cn: "新员工进入工厂前，先在虚拟现实环境中完成了安全培训。"
+  },
+  avatar: {
+    en: "Her avatar welcomed visitors to the company's virtual product launch.",
+    cn: "她的数字化身在公司的虚拟产品发布会上迎接访客。"
+  },
+  "paradigm shift": {
+    en: "Remote work created a paradigm shift in how managers measure productivity.",
+    cn: "远程办公让管理者衡量生产力的方式发生了范式转变。"
+  },
+  "haptic gloves": {
+    en: "Engineers tested haptic gloves that allow surgeons to feel virtual instruments.",
+    cn: "工程师测试了能让外科医生感受到虚拟器械的触觉手套。"
+  },
+  nft: {
+    en: "The artist sold an NFT that verified ownership of the original digital artwork.",
+    cn: "这位艺术家出售了一枚用于验证原创数字艺术品所有权的非同质化代币。"
+  },
+  "hybrid working": {
+    en: "Our hybrid working policy requires teams to meet in the office twice a week.",
+    cn: "我们的混合办公制度要求团队每周到办公室见面两次。"
+  },
+  "play-to-earn": {
+    en: "The studio abandoned its play-to-earn model after players complained about unstable rewards.",
+    cn: "玩家抱怨奖励不稳定后，这家工作室放弃了边玩边赚模式。"
+  },
+  "crypto derivatives": {
+    en: "The exchange tightened risk controls for customers trading crypto derivatives.",
+    cn: "这家交易所加强了对加密衍生品交易客户的风险控制。"
+  },
+  web3: {
+    en: "The startup is building a Web3 marketplace where creators control their digital assets.",
+    cn: "这家初创公司正在建立一个由创作者掌控数字资产的第三代互联网市场。"
+  },
+  "quiet quitting": {
+    en: "After months of unpaid overtime, Marcus began quiet quitting and stopped taking on extra duties.",
+    cn: "连续数月无偿加班后，马库斯开始安静辞职，不再承担额外职责。"
+  },
+  "hustle culture": {
+    en: "The founder rejected hustle culture and encouraged everyone to take their full vacation allowance.",
+    cn: "这位创始人反对奋斗文化，并鼓励所有人休完应有的年假。"
+  },
+  "proximity bias": {
+    en: "Managers received training to prevent proximity bias from hurting remote employees' promotions.",
+    cn: "管理者接受了培训，以免距离偏见影响远程员工的晋升。"
+  },
+  "job hopping": {
+    en: "Frequent job hopping helped her raise her salary, but recruiters asked about her short tenures.",
+    cn: "频繁跳槽帮助她提高了薪资，但招聘人员也询问了她任职时间较短的原因。"
+  },
+  "career cushioning": {
+    en: "Updating his portfolio and reconnecting with former colleagues were part of his career cushioning plan.",
+    cn: "更新作品集并重新联系前同事，是他职业缓冲计划的一部分。"
+  },
+  "hedge your bets": {
+    en: "We should hedge our bets by testing two suppliers before signing a long-term contract.",
+    cn: "在签长期合同前，我们应该测试两家供应商来分散风险。"
+  },
+  "rage applying": {
+    en: "She started rage applying after her manager rejected her promotion without an explanation.",
+    cn: "经理没有解释便拒绝了她的晋升后，她开始愤怒海投。"
+  },
+  resenteeism: {
+    en: "Rising resenteeism became obvious when frustrated employees criticized every new initiative.",
+    cn: "当不满的员工批评每一项新举措时，日益严重的厌工症变得十分明显。"
+  },
+  "bare minimum monday": {
+    en: "She uses Bare Minimum Monday to answer urgent emails and plan the rest of her week.",
+    cn: "她在“最低限度星期一”只回复紧急邮件，并规划本周余下的工作。"
+  },
+  "lazy girl job": {
+    en: "For her, a lazy girl job means predictable hours and enough energy for life outside work.",
+    cn: "对她而言，“懒女孩工作”意味着工时稳定，并能为工作之外的生活保留精力。"
+  },
+  "snail girl": {
+    en: "The snail girl trend inspired her to grow a small business without chasing constant expansion.",
+    cn: "“蜗牛女孩”潮流让她决定稳步经营小企业，而不是一味追求扩张。"
+  },
+  enshittification: {
+    en: "Users blamed enshittification when the platform added more ads and removed useful free features.",
+    cn: "平台增加广告并取消实用的免费功能后，用户将其归咎于平台垃圾化。"
+  },
+  "platform decay": {
+    en: "Poor moderation and unreliable search results accelerated the platform's decay.",
+    cn: "糟糕的内容管理和不可靠的搜索结果加速了平台衰落。"
+  },
+  "commuter triangle": {
+    en: "Hybrid schedules have created a commuter triangle linking home, headquarters, and a local coworking space.",
+    cn: "混合办公日程形成了连接家庭、总部和本地共享办公空间的通勤新三角。"
+  },
+  "urban doom loop": {
+    en: "Empty offices reduced downtown spending and pushed the city deeper into an urban doom loop.",
+    cn: "写字楼空置减少了市中心消费，使这座城市进一步陷入城市末日循环。"
+  },
+  "great detachment": {
+    en: "During the great detachment, many employees stayed in their jobs but felt little connection to them.",
+    cn: "在“大逃离”时期，许多员工虽然留在岗位上，却几乎感受不到工作认同。"
+  },
+  pie: {
+    en: "Her mentor used the PIE model to show that strong performance alone would not guarantee promotion.",
+    cn: "她的导师用PIE模型说明，只有出色表现并不能保证获得晋升。"
+  },
+  "zero-based budgeting": {
+    en: "With zero-based budgeting, the family assigned every dollar of monthly income to a specific purpose.",
+    cn: "通过零基预算，这个家庭为每一美元月收入都安排了明确用途。"
+  },
+  "envelope budget": {
+    en: "An envelope budget helped him stop overspending on restaurants and entertainment.",
+    cn: "信封预算法帮助他控制了在餐饮和娱乐方面的超支。"
+  },
+  "cognitive shuffling": {
+    en: "When work problems kept her awake, she tried cognitive shuffling by imagining unrelated objects.",
+    cn: "工作问题让她难以入睡时，她通过想象互不相关的物体来尝试认知洗牌。"
+  },
+  sleepmaxxers: {
+    en: "Sleepmaxxers compare blackout curtains, cooling mattresses, and wearable sleep trackers.",
+    cn: "睡眠最大化爱好者会比较遮光窗帘、降温床垫和可穿戴睡眠追踪器。"
+  },
+  "lying flat": {
+    en: "He chose lying flat over competing for a management title that he did not actually want.",
+    cn: "他选择躺平，不再争夺一个自己其实并不想要的管理职位。"
+  },
+  "quiet cracking": {
+    en: "Her missed deadlines and growing isolation were early signs of quiet cracking.",
+    cn: "她开始错过截止日期并日益孤立，这是安静崩溃的早期迹象。"
+  },
+  petrichor: {
+    en: "The fragrance brand released a candle designed to capture the petrichor after a summer storm.",
+    cn: "这个香氛品牌推出了一款试图还原夏日暴雨后泥土清香的蜡烛。"
+  },
+  teraflop: {
+    en: "The new graphics processor can perform several teraflops of calculations per second.",
+    cn: "这款新图形处理器每秒可以完成数万亿次浮点运算。"
+  },
+  dumbphone: {
+    en: "He switched to a dumbphone on weekends to avoid constant work notifications.",
+    cn: "为了避开不断出现的工作通知，他周末改用非智能手机。"
+  },
+  "ghost kitchen": {
+    en: "The restaurant opened a ghost kitchen to serve delivery customers in another district.",
+    cn: "这家餐厅开设了一间幽灵厨房，为另一个城区的外卖顾客服务。"
+  },
+  rizz: {
+    en: "The campaign relied on the young spokesperson's rizz to connect with first-time buyers.",
+    cn: "这项营销活动依靠年轻代言人的个人魅力来吸引首次购买者。"
+  },
+  "hard pass": {
+    en: "The finance director gave the proposal a hard pass because its risks were impossible to measure.",
+    cn: "由于风险无法衡量，财务总监坚决拒绝了这项提案。"
+  },
+  doomscroll: {
+    en: "Investors began to doomscroll as negative market headlines filled their social media feeds.",
+    cn: "负面市场新闻充斥社交媒体后，投资者开始无休止地浏览这些坏消息。"
+  },
+  slop: {
+    en: "The publisher introduced human review to keep AI-generated slop off its news site.",
+    cn: "这家出版商引入人工审核，防止人工智能生成的低质内容出现在新闻网站上。"
+  },
+  "vibe coding": {
+    en: "The product team used vibe coding to turn a plain-language idea into a working prototype in one afternoon.",
+    cn: "产品团队利用氛围编程，在一个下午把自然语言描述的想法变成了可运行的原型。"
+  },
+  "rage bait": {
+    en: "The brand refused to use rage bait even though provocative posts generated more comments.",
+    cn: "尽管挑衅性内容能带来更多评论，这个品牌仍拒绝使用愤怒诱饵。"
+  },
+  incentivize: {
+    en: "The bonus is designed to incentivize sales teams to retain existing customers.",
+    cn: "这项奖金旨在激励销售团队留住现有客户。"
+  },
+  demure: {
+    en: "She chose a demure navy suit for the formal meeting with regulators.",
+    cn: "她为与监管机构的正式会议选择了一套端庄的海军蓝西装。"
+  },
+  shrinkflation: {
+    en: "Customers noticed shrinkflation when the cereal box became smaller but the price stayed the same.",
+    cn: "麦片盒变小但价格不变时，顾客注意到了缩水式通胀。"
+  },
+  permacrisis: {
+    en: "Leaders operating through a permacrisis must make decisions before every uncertainty is resolved.",
+    cn: "身处长期危机的领导者，必须在所有不确定性消失之前就作出决策。"
+  },
+  metaverse: {
+    en: "The fashion label opened a showroom in the metaverse for customers using digital avatars.",
+    cn: "这个时装品牌在元宇宙中开设了展厅，供使用数字化身的顾客参观。"
+  },
+  "great resignation": {
+    en: "Flexible schedules helped the company retain staff during the great resignation.",
+    cn: "灵活的工作日程帮助公司在大辞职潮期间留住了员工。"
+  },
+  "coffee badging": {
+    en: "Coffee badging increased after the company ordered staff back to the office five days a week.",
+    cn: "公司要求员工每周五天到岗后，短暂打卡露面的现象增加了。"
+  },
+  "dynamic pricing": {
+    en: "The airline uses dynamic pricing to raise fares when demand for a route surges.",
+    cn: "当某条航线需求激增时，航空公司会利用动态定价提高票价。"
+  },
+  "brain rot": {
+    en: "She deleted several short-video apps because endless scrolling was giving her brain rot.",
+    cn: "她删除了几个短视频应用，因为无休止的滑动让她感觉思考能力正在下降。"
+  },
+  deinfluencing: {
+    en: "Her deinfluencing video explained why the expensive skin-care device was not worth buying.",
+    cn: "她的反种草视频解释了为什么那款昂贵的护肤设备不值得购买。"
+  },
+  "ai hallucination": {
+    en: "A lawyer checked every citation after discovering an AI hallucination in the draft.",
+    cn: "律师在草稿中发现一处人工智能幻觉后，核查了每一条引文。"
+  },
+  "ai brain fatigue": {
+    en: "Constantly checking chatbot answers left the analysts with AI brain fatigue by Friday.",
+    cn: "不断核查聊天机器人的回答，使分析师们到周五时出现了AI脑疲劳。"
+  },
+  "vibe coding paralysis": {
+    en: "Too many generated alternatives caused vibe coding paralysis, so the developer returned to a simple specification.",
+    cn: "过多的生成方案造成了氛围编程瘫痪，因此开发者重新采用简单的需求说明。"
+  },
+  emilli: {
+    en: "The retired teacher became an emilli through steady pension contributions and decades of home ownership.",
+    cn: "这位退休教师通过稳定缴纳养老金并长期持有住房，成为了一名普通百万富翁。"
+  },
+  memi: {
+    en: "Analysts grouped memory-chip leaders into the new memi theme as AI demand accelerated.",
+    cn: "随着人工智能需求加速，分析师把存储芯片龙头归入新的Memi投资主题。"
+  },
+  "reverse recruiter": {
+    en: "A reverse recruiter rewrote her résumé and contacted employers on her behalf.",
+    cn: "一位反向招聘顾问重写了她的简历，并代表她联系雇主。"
+  }
 };
 
 const BOOTSTRAP_ARTICLES = [
@@ -357,10 +596,27 @@ function extractCandidates(html, article) {
 }
 
 function adaptedExamples(term, cn) {
+  const normalized = normalizeTerm(term);
+  const custom = EXAMPLE_OVERRIDES[normalized];
+  if (custom) {
+    return {
+      exampleEn: custom.en,
+      exampleCn: custom.cn,
+      exampleAdapted: true
+    };
+  }
+
   const meaning = cn.replace(/。$/, "");
+  const templates = [
+    `The team introduced "${normalized}" while discussing how ${meaning} could affect its next project.`,
+    `Managers used "${normalized}" to describe a change involving ${meaning}.`,
+    `The market report highlighted "${normalized}" as an example of ${meaning}.`,
+    `During the meeting, analysts connected "${normalized}" with ${meaning}.`
+  ];
+  const templateIndex = [...normalized].reduce((sum, char) => sum + char.charCodeAt(0), 0) % templates.length;
   return {
-    exampleEn: `The report uses "${term}" when discussing a recent business or technology trend.`,
-    exampleCn: `这篇报道用“${term}”表达“${meaning}”这一概念。`,
+    exampleEn: templates[templateIndex],
+    exampleCn: `在学习例句中，“${normalized}”被用于说明“${meaning}”这一概念。`,
     exampleAdapted: true
   };
 }
@@ -371,14 +627,16 @@ async function readExistingItems() {
     const lessons = vm.runInNewContext(`${code}\n;FORTUNE_LESSONS`, Object.create(null), { timeout: 1000 });
     return lessons.flatMap((lesson) => [lesson.word, lesson.phrase].map((item) => {
       const term = normalizeTerm(item.term);
+      const cn = CHINESE_GLOSSES[term] ? `${CHINESE_GLOSSES[term]}。` : item.cn;
       return {
         ...item,
         term,
-        cn: CHINESE_GLOSSES[term] ? `${CHINESE_GLOSSES[term]}。` : item.cn,
+        cn,
         en: DEFINITION_OVERRIDES[term] || item.en,
         date: item.date || lesson.date,
         sourceTitle: item.sourceTitle || lesson.sourceTitle,
-        sourceUrl: item.sourceUrl || lesson.sourceUrl
+        sourceUrl: item.sourceUrl || lesson.sourceUrl,
+        ...adaptedExamples(term, cn)
       };
     })).filter((item) => item.date >= MIN_DATE && item.date <= MAX_DATE && DEFINITION_OVERRIDES[item.term] && CHINESE_GLOSSES[item.term]);
   } catch {
@@ -461,8 +719,27 @@ async function discoverArticles() {
   return [...articles.values()].sort((a, b) => b.date.localeCompare(a.date));
 }
 
+async function writeSelectedItems(selected) {
+  const lessons = pairItems(selected);
+  if (!lessons.length) throw new Error("No valid 2021–2026 lessons were generated; keeping the previous data file.");
+
+  const counts = {};
+  for (const item of selected) counts[item.date.slice(0, 4)] = (counts[item.date.slice(0, 4)] || 0) + 1;
+  const output = `// AUTO-GENERATED by scripts/update-fortune-words.mjs. Do not edit by hand.\n` +
+    `// Included years: ${MIN_YEAR}–${MAX_YEAR}.\n` +
+    `const FORTUNE_LESSONS = ${JSON.stringify(lessons, null, 2)};\n`;
+  await fs.writeFile(DATA_FILE, output, "utf8");
+  console.log(`Generated ${lessons.length} lessons / ${lessons.length * 2} terms from ${new Set(selected.map((item) => item.sourceUrl)).size} sources.`);
+  console.log(`Year distribution: ${JSON.stringify(counts)}`);
+}
+
 async function main() {
   const existing = await readExistingItems();
+  if (process.argv.includes("--refresh-examples-only")) {
+    await writeSelectedItems(selectBalancedItems(existing));
+    return;
+  }
+
   const articles = await discoverArticles();
   const discovered = [];
 
@@ -483,17 +760,7 @@ async function main() {
     Array.from({ length: MAX_YEAR - MIN_YEAR + 1 }, (_, index) => MIN_YEAR + index)
       .every((year) => discoveredYears.has(year));
   const selected = selectBalancedItems(completeDiscovery ? discovered : [...existing, ...discovered]);
-  const lessons = pairItems(selected);
-  if (!lessons.length) throw new Error("No valid 2021–2026 lessons were generated; keeping the previous data file.");
-
-  const counts = {};
-  for (const item of selected) counts[item.date.slice(0, 4)] = (counts[item.date.slice(0, 4)] || 0) + 1;
-  const output = `// AUTO-GENERATED by scripts/update-fortune-words.mjs. Do not edit by hand.\n` +
-    `// Included years: ${MIN_YEAR}–${MAX_YEAR}.\n` +
-    `const FORTUNE_LESSONS = ${JSON.stringify(lessons, null, 2)};\n`;
-  await fs.writeFile(DATA_FILE, output, "utf8");
-  console.log(`Generated ${lessons.length} lessons / ${lessons.length * 2} terms from ${new Set(selected.map((item) => item.sourceUrl)).size} sources.`);
-  console.log(`Year distribution: ${JSON.stringify(counts)}`);
+  await writeSelectedItems(selected);
 }
 
 main().catch((error) => {
