@@ -341,6 +341,22 @@ const FORTUNE_LESSONS = [
       "exampleAdapted": true
     },
     "phrase": {
+      "term": "bare minimum monday",
+      "cn": "最低限度星期一；周一只处理必要任务、缓慢进入工作状态。",
+      "en": "Starting the workweek gently by doing only essential tasks on Monday.",
+      "date": "2023-03-24",
+      "sourceTitle": "自动抓取：美国大多数上班族存在心理健康问题，导致工作效率下降",
+      "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2023-03/23/content_430045.htm",
+      "exampleEn": "She uses Bare Minimum Monday to answer urgent emails and plan the rest of her week.",
+      "exampleCn": "她在“最低限度星期一”只回复紧急邮件，并规划本周余下的工作。",
+      "exampleAdapted": true
+    }
+  },
+  {
+    "date": "2023-02-10",
+    "sourceTitle": "财富中文网自动抓取词汇",
+    "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2023-02/09/content_427693.htm",
+    "word": {
       "term": "resenteeism",
       "cn": "厌工症；留在不喜欢的岗位并公开表现怨气和不满。",
       "en": "Staying in a disliked job while openly expressing resentment and dissatisfaction.",
@@ -350,13 +366,8 @@ const FORTUNE_LESSONS = [
       "exampleEn": "Rising resenteeism became obvious when frustrated employees criticized every new initiative.",
       "exampleCn": "当不满的员工批评每一项新举措时，日益严重的厌工症变得十分明显。",
       "exampleAdapted": true
-    }
-  },
-  {
-    "date": "2023-01-23",
-    "sourceTitle": "财富中文网自动抓取词汇",
-    "sourceUrl": "https://www.fortunechina.com/shangye/c/2023-01/22/content_426488.htm",
-    "word": {
+    },
+    "phrase": {
       "term": "rage applying",
       "cn": "愤怒海投；因不满现职而短时间大量投递求职申请。",
       "en": "Applying rapidly to many jobs in reaction to frustration with a current employer.",
@@ -365,17 +376,6 @@ const FORTUNE_LESSONS = [
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2023-01/22/content_426488.htm",
       "exampleEn": "She started rage applying after her manager rejected her promotion without an explanation.",
       "exampleCn": "经理没有解释便拒绝了她的晋升后，她开始愤怒海投。",
-      "exampleAdapted": true
-    },
-    "phrase": {
-      "term": "permacrisis",
-      "cn": "长期危机；多个危机相互叠加并持续存在的时期。",
-      "en": "A long period marked by a series of overlapping and seemingly permanent crises.",
-      "date": "2023-01-21",
-      "sourceTitle": "自动抓取：首席执行官们为何对2023年忧心忡忡",
-      "sourceUrl": "https://www.fortunechina.com/shangye/c/2023-01/20/content_426401.htm",
-      "exampleEn": "Leaders operating through a permacrisis must make decisions before every uncertainty is resolved.",
-      "exampleCn": "身处长期危机的领导者，必须在所有不确定性消失之前就作出决策。",
       "exampleAdapted": true
     }
   },
@@ -395,6 +395,22 @@ const FORTUNE_LESSONS = [
       "exampleAdapted": true
     },
     "phrase": {
+      "term": "permacrisis",
+      "cn": "长期危机；多个危机相互叠加并持续存在的时期。",
+      "en": "A long period marked by a series of overlapping and seemingly permanent crises.",
+      "date": "2023-01-21",
+      "sourceTitle": "自动抓取：首席执行官们为何对2023年忧心忡忡",
+      "sourceUrl": "https://www.fortunechina.com/shangye/c/2023-01/20/content_426401.htm",
+      "exampleEn": "Leaders operating through a permacrisis must make decisions before every uncertainty is resolved.",
+      "exampleCn": "身处长期危机的领导者，必须在所有不确定性消失之前就作出决策。",
+      "exampleAdapted": true
+    }
+  },
+  {
+    "date": "2022-12-05",
+    "sourceTitle": "财富中文网自动抓取词汇",
+    "sourceUrl": "https://www.fortunechina.com/shangye/c/2022-12/04/content_423933.htm",
+    "word": {
       "term": "career cushioning",
       "cn": "职业缓冲；在职期间提前准备其他工作选项。",
       "en": "Preparing alternative job options while still employed in case a change becomes necessary.",
@@ -404,13 +420,8 @@ const FORTUNE_LESSONS = [
       "exampleEn": "Updating his portfolio and reconnecting with former colleagues were part of his career cushioning plan.",
       "exampleCn": "更新作品集并重新联系前同事，是他职业缓冲计划的一部分。",
       "exampleAdapted": true
-    }
-  },
-  {
-    "date": "2022-09-30",
-    "sourceTitle": "财富中文网自动抓取词汇",
-    "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2022-09/29/content_420084.htm",
-    "word": {
+    },
+    "phrase": {
       "term": "great resignation",
       "cn": "大辞职潮；大量员工主动离职的时期。",
       "en": "A period when unusually large numbers of employees voluntarily leave their jobs.",
@@ -419,17 +430,6 @@ const FORTUNE_LESSONS = [
       "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2022-09/29/content_420084.htm",
       "exampleEn": "Flexible schedules helped the company retain staff during the great resignation.",
       "exampleCn": "灵活的工作日程帮助公司在大辞职潮期间留住了员工。",
-      "exampleAdapted": true
-    },
-    "phrase": {
-      "term": "proximity bias",
-      "cn": "距离偏见；管理者更偏爱常在办公室出现的员工。",
-      "en": "The tendency to favor employees who are physically present over those working remotely.",
-      "date": "2022-08-26",
-      "sourceTitle": "自动抓取：混合办公模式并非最佳选择，员工心存焦虑",
-      "sourceUrl": "https://www.fortunechina.com/shangye/c/2022-08/25/content_417936.htm",
-      "exampleEn": "Managers received training to prevent proximity bias from hurting remote employees' promotions.",
-      "exampleCn": "管理者接受了培训，以免距离偏见影响远程员工的晋升。",
       "exampleAdapted": true
     }
   },
@@ -449,6 +449,22 @@ const FORTUNE_LESSONS = [
       "exampleAdapted": true
     },
     "phrase": {
+      "term": "proximity bias",
+      "cn": "距离偏见；管理者更偏爱常在办公室出现的员工。",
+      "en": "The tendency to favor employees who are physically present over those working remotely.",
+      "date": "2022-08-26",
+      "sourceTitle": "自动抓取：混合办公模式并非最佳选择，员工心存焦虑",
+      "sourceUrl": "https://www.fortunechina.com/shangye/c/2022-08/25/content_417936.htm",
+      "exampleEn": "Managers received training to prevent proximity bias from hurting remote employees' promotions.",
+      "exampleCn": "管理者接受了培训，以免距离偏见影响远程员工的晋升。",
+      "exampleAdapted": true
+    }
+  },
+  {
+    "date": "2022-08-17",
+    "sourceTitle": "财富中文网自动抓取词汇",
+    "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2022-08/16/content_417384.htm",
+    "word": {
       "term": "hustle culture",
       "cn": "奋斗文化；把持续工作和极端高产视为成功标志的文化。",
       "en": "A culture that treats constant work and extreme productivity as signs of ambition and success.",
@@ -458,13 +474,8 @@ const FORTUNE_LESSONS = [
       "exampleEn": "The founder rejected hustle culture and encouraged everyone to take their full vacation allowance.",
       "exampleCn": "这位创始人反对奋斗文化，并鼓励所有人休完应有的年假。",
       "exampleAdapted": true
-    }
-  },
-  {
-    "date": "2022-07-14",
-    "sourceTitle": "财富中文网自动抓取词汇",
-    "sourceUrl": "https://www.fortunechina.com/zhuanlan/c/2022-07/14/content_415237.htm",
-    "word": {
+    },
+    "phrase": {
       "term": "metaverse",
       "cn": "元宇宙；由持久化虚拟空间组成、可供人们以数字身份互动的网络。",
       "en": "A network of persistent virtual spaces where people interact through digital identities.",
@@ -474,8 +485,13 @@ const FORTUNE_LESSONS = [
       "exampleEn": "The fashion label opened a showroom in the metaverse for customers using digital avatars.",
       "exampleCn": "这个时装品牌在元宇宙中开设了展厅，供使用数字化身的顾客参观。",
       "exampleAdapted": true
-    },
-    "phrase": {
+    }
+  },
+  {
+    "date": "2022-03-24",
+    "sourceTitle": "财富中文网自动抓取词汇",
+    "sourceUrl": "https://www.fortunechina.com/lingdaoli/c/2022-03/23/content_408809.htm",
+    "word": {
       "term": "web3",
       "cn": "第三代互联网；强调去中心化网络、数字所有权和区块链的网络愿景。",
       "en": "A vision of the web built around decentralized networks, digital ownership, and blockchain technology.",
@@ -485,13 +501,8 @@ const FORTUNE_LESSONS = [
       "exampleEn": "The startup is building a Web3 marketplace where creators control their digital assets.",
       "exampleCn": "这家初创公司正在建立一个由创作者掌控数字资产的第三代互联网市场。",
       "exampleAdapted": true
-    }
-  },
-  {
-    "date": "2021-12-23",
-    "sourceTitle": "财富中文网自动抓取词汇",
-    "sourceUrl": "https://www.fortunechina.com/shangye/c/2021-12/22/content_403485.htm",
-    "word": {
+    },
+    "phrase": {
       "term": "play-to-earn",
       "cn": "边玩边赚；通过游戏获得数字资产或加密货币的模式。",
       "en": "A game model that lets players earn digital assets or cryptocurrency through gameplay.",
@@ -500,17 +511,6 @@ const FORTUNE_LESSONS = [
       "sourceUrl": "https://www.fortunechina.com/shangye/c/2021-12/22/content_403485.htm",
       "exampleEn": "The studio abandoned its play-to-earn model after players complained about unstable rewards.",
       "exampleCn": "玩家抱怨奖励不稳定后，这家工作室放弃了边玩边赚模式。",
-      "exampleAdapted": true
-    },
-    "phrase": {
-      "term": "nft",
-      "cn": "非同质化代币；记录在区块链上的独特数字所有权凭证。",
-      "en": "A non-fungible token: a unique digital record of ownership stored on a blockchain.",
-      "date": "2021-12-05",
-      "sourceTitle": "自动抓取：《柯林斯词典》公布2021年度热词：NFT排行第一",
-      "sourceUrl": "https://www.fortunechina.com/shangye/c/2021-12/04/content_402122.htm",
-      "exampleEn": "The artist sold an NFT that verified ownership of the original digital artwork.",
-      "exampleCn": "这位艺术家出售了一枚用于验证原创数字艺术品所有权的非同质化代币。",
       "exampleAdapted": true
     }
   },
@@ -530,6 +530,22 @@ const FORTUNE_LESSONS = [
       "exampleAdapted": true
     },
     "phrase": {
+      "term": "nft",
+      "cn": "非同质化代币；记录在区块链上的独特数字所有权凭证。",
+      "en": "A non-fungible token: a unique digital record of ownership stored on a blockchain.",
+      "date": "2021-12-05",
+      "sourceTitle": "自动抓取：《柯林斯词典》公布2021年度热词：NFT排行第一",
+      "sourceUrl": "https://www.fortunechina.com/shangye/c/2021-12/04/content_402122.htm",
+      "exampleEn": "The artist sold an NFT that verified ownership of the original digital artwork.",
+      "exampleCn": "这位艺术家出售了一枚用于验证原创数字艺术品所有权的非同质化代币。",
+      "exampleAdapted": true
+    }
+  },
+  {
+    "date": "2021-12-05",
+    "sourceTitle": "财富中文网自动抓取词汇",
+    "sourceUrl": "https://www.fortunechina.com/shangye/c/2021-12/04/content_402122.htm",
+    "word": {
       "term": "hybrid working",
       "cn": "混合办公；远程工作与到岗办公相结合的安排。",
       "en": "A work arrangement that combines remote work with time spent at a workplace.",
@@ -539,13 +555,8 @@ const FORTUNE_LESSONS = [
       "exampleEn": "Our hybrid working policy requires teams to meet in the office twice a week.",
       "exampleCn": "我们的混合办公制度要求团队每周到办公室见面两次。",
       "exampleAdapted": true
-    }
-  },
-  {
-    "date": "2021-11-27",
-    "sourceTitle": "财富中文网自动抓取词汇",
-    "sourceUrl": "https://www.fortunechina.com/keji/c/2021-11/26/content_401527.htm",
-    "word": {
+    },
+    "phrase": {
       "term": "paradigm shift",
       "cn": "范式转变；某个领域底层观念或方法发生的根本变化。",
       "en": "A fundamental change in the assumptions or approach underlying a field or activity.",
@@ -554,17 +565,6 @@ const FORTUNE_LESSONS = [
       "sourceUrl": "https://www.fortunechina.com/keji/c/2021-11/26/content_401527.htm",
       "exampleEn": "Remote work created a paradigm shift in how managers measure productivity.",
       "exampleCn": "远程办公让管理者衡量生产力的方式发生了范式转变。",
-      "exampleAdapted": true
-    },
-    "phrase": {
-      "term": "avatar",
-      "cn": "化身；用户在网络或虚拟环境中的数字形象。",
-      "en": "A digital representation of a person in an online or virtual environment.",
-      "date": "2021-11-02",
-      "sourceTitle": "自动抓取：扎克伯格痴迷于元宇宙，可元宇宙究竟是什么？",
-      "sourceUrl": "https://www.fortunechina.com/keji/c/2021-11/01/content_399756.htm",
-      "exampleEn": "Her avatar welcomed visitors to the company's virtual product launch.",
-      "exampleCn": "她的数字化身在公司的虚拟产品发布会上迎接访客。",
       "exampleAdapted": true
     }
   },
@@ -584,14 +584,14 @@ const FORTUNE_LESSONS = [
       "exampleAdapted": true
     },
     "phrase": {
-      "term": "virtual reality",
-      "cn": "虚拟现实；让用户进入并交互于计算机生成环境的技术。",
-      "en": "A computer-generated three-dimensional environment that a person can interact with.",
-      "date": "2021-10-30",
-      "sourceTitle": "自动抓取：扎克伯格重命名Facebook，寄托对元宇宙的愿景",
-      "sourceUrl": "https://www.fortunechina.com/keji/c/2021-10/29/content_399651.htm",
-      "exampleEn": "New employees completed safety training in virtual reality before entering the factory.",
-      "exampleCn": "新员工进入工厂前，先在虚拟现实环境中完成了安全培训。",
+      "term": "avatar",
+      "cn": "化身；用户在网络或虚拟环境中的数字形象。",
+      "en": "A digital representation of a person in an online or virtual environment.",
+      "date": "2021-11-02",
+      "sourceTitle": "自动抓取：扎克伯格痴迷于元宇宙，可元宇宙究竟是什么？",
+      "sourceUrl": "https://www.fortunechina.com/keji/c/2021-11/01/content_399756.htm",
+      "exampleEn": "Her avatar welcomed visitors to the company's virtual product launch.",
+      "exampleCn": "她的数字化身在公司的虚拟产品发布会上迎接访客。",
       "exampleAdapted": true
     }
   }
