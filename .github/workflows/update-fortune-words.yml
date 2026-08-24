@@ -1,0 +1,44 @@
+name: Update Fortune vocabulary
+
+on:
+  schedule:
+    # Every day at 10:20 China Standard Time (02:20 UTC).
+    - cron: "20 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-fortune-vocabulary
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch and validate Fortune China vocabulary
+        run: node scripts/update-fortune-words.mjs
+
+      - name: Commit updated vocabulary
+        shell: bash
+        run: |
+          if git diff --quiet -- data.js; then
+            echo "No vocabulary changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.js
+          git commit -m "Update Fortune vocabulary"
+          git push
