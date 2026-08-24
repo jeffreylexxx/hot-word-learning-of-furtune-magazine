@@ -1,4 +1,4 @@
-const STORAGE_KEY = "fortune-business-english-knowledge-v1";
+const STORAGE_KEY = "fortune-business-english-knowledge-v2";
 
 const els = {
   sourcePill: document.querySelector("#sourcePill"),
@@ -54,6 +54,31 @@ function shuffledItems(items) {
   return [...items].sort(() => Math.random() - 0.5);
 }
 
+function lessonSourceUrls(lesson) {
+  return new Set([
+    lesson.word.sourceUrl || lesson.sourceUrl,
+    lesson.phrase.sourceUrl || lesson.sourceUrl
+  ]);
+}
+
+function lessonYear(lesson) {
+  return Math.max(
+    Number((lesson.word.date || lesson.date).slice(0, 4)),
+    Number((lesson.phrase.date || lesson.date).slice(0, 4))
+  );
+}
+
+function weightedRandomLesson(lessons) {
+  const yearWeights = { 2021: 1, 2022: 1.25, 2023: 1.75, 2024: 2.5, 2025: 4, 2026: 6 };
+  const weights = lessons.map((lesson) => yearWeights[lessonYear(lesson)] || 1);
+  let cursor = Math.random() * weights.reduce((sum, weight) => sum + weight, 0);
+  for (let index = 0; index < lessons.length; index += 1) {
+    cursor -= weights[index];
+    if (cursor <= 0) return lessons[index];
+  }
+  return lessons[lessons.length - 1];
+}
+
 function findFreshLesson(knowledge) {
   const seenWords = new Set(knowledge.lessons.map((item) => normalize(item.word.term)));
   const seenPhrases = new Set(knowledge.lessons.map((item) => normalize(item.phrase.term)));
@@ -61,8 +86,16 @@ function findFreshLesson(knowledge) {
     return !seenWords.has(normalize(lesson.word.term)) && !seenPhrases.has(normalize(lesson.phrase.term));
   });
 
-  const pool = fresh.length ? fresh : FORTUNE_LESSONS;
-  return pool[Math.floor(Math.random() * pool.length)];
+  let pool = fresh.length ? fresh : FORTUNE_LESSONS;
+  const previous = knowledge.lessons[0];
+  if (previous && pool.length > 1) {
+    const previousSources = lessonSourceUrls(previous);
+    const differentSources = pool.filter((lesson) => {
+      return [...lessonSourceUrls(lesson)].every((url) => !previousSources.has(url));
+    });
+    if (differentSources.length) pool = differentSources;
+  }
+  return weightedRandomLesson(pool);
 }
 
 function memoizeLesson(lesson) {
