@@ -1,6 +1,8 @@
 # 商务英语今日热词学习页
 
-这是一个可直接发布到 GitHub Pages 的静态网页。页面会在每次刷新时，从内置的 Fortune China 来源库里随机抽取一组“今日热词”和“今日短语 / 商务短语”，并把出现过的内容写入浏览器 `localStorage` 知识库，后续刷新会优先避开重复词条。
+演示地址：https://jeffreylexxx.github.io/hot-word-learning-of-furtune-magazine/
+
+可直接发布到 GitHub Pages 的静态网页。页面会在每次刷新时，从内置的 Fortune China 来源库里随机抽取一组“今日热词”和“今日短语 / 商务短语”，并把出现过的内容写入浏览器 `localStorage` 知识库，后续刷新会优先避开重复词条。
 
 ## 使用方式
 
